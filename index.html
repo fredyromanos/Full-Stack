@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Football Central</title>
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Navbar shared across pages -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Football Central</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="stats.html">Stats</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="text-center p-5 bg-light">
+    <h1>Welcome to Football Central</h1>
+    <p>Your hub for football stats and updates.</p>
+  </header>
+
+  <main class="container my-5">
+  <div class="tab-container">
+
+  <!-- Buttons -->
+  <div class="d-flex justify-content-center mb-4 flex-wrap gap-2">
+    <button class="btn btn-outline-primary active" data-tab="tab1">Top Players</button>
+    <button class="btn btn-outline-primary" data-tab="tab2">Top Clubs</button>
+    <button class="btn btn-outline-primary" data-tab="tab3">Fun Facts</button>
+  </div>
+
+  <!-- Tab 1: Top Players -->
+<div id="tab1" class="tab-content active">
+  <h3>Top Football Players</h3>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+
+    <!-- Marco Reus -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/reus.jpg" class="card-img-top" alt="Marco Reus">
+        <div class="card-body">
+          <h5 class="card-title">Marco Reus</h5>
+          <p>🟡 Dortmund through and through<br>⚽ 150+ goals for the club<br>❤️ Chose loyalty over trophies<br><br>
+          “When he played, the Yellow Wall stood taller.”<br>
+          “You don’t pick legends based on trophies, you pick them based on legacy. Reus is Dortmund.”</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cristiano Ronaldo -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/ronaldo.jpg" class="card-img-top" alt="Cristiano Ronaldo">
+        <div class="card-body">
+          <h5 class="card-title">Cristiano Ronaldo</h5>
+          <p>👑 The King. The Machine. The Brand.<br>🏆 5 Ballon d'Ors<br>⚽ UCL all-time top scorer<br>
+          🔁 Carried comebacks on his back — Atleti, Wolfsburg, Sweden, you name it.<br><br>
+          “That bicycle kick against Juve? Football poetry.”<br>
+          “Ronaldo doesn’t do comebacks, he *is* the comeback.”</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lionel Messi -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/messi.jpg" class="card-img-top" alt="Lionel Messi">
+        <div class="card-body">
+          <h5 class="card-title">Lionel Messi</h5>
+          <p>🥱 Won 8 Ballon d’Ors (but hey, politics)<br>🏆 World Cup, finally<br>📉 Stole 2021 Ballon d’Or from Lewandowski<br><br>
+          “Yeah, he's good. But let’s be real — Lewy was robbed.”</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Zlatan Ibrahimović -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/zlatan.jpg" class="card-img-top" alt="Zlatan Ibrahimović">
+        <div class="card-body">
+          <h5 class="card-title">Zlatan Ibrahimović</h5>
+          <p>🦁 The Lion. The Myth. The Ego.<br>⚽ Scored in 4 different decades<br>🌍 Played for 9 clubs, dominated in all<br><br>
+          “Lions don’t compare themselves to humans.”<br>
+          “Zlatan doesn’t retire. Football retires when Zlatan leaves.”</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Tab 2: Top Clubs -->
+<div id="tab2" class="tab-content">
+  <h3>Top Football Clubs</h3>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+
+    <!-- Borussia Dortmund -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/dortmund.jpg" class="card-img-top" alt="Borussia Dortmund">
+        <div class="card-body">
+          <h5 class="card-title">Borussia Dortmund</h5>
+          <p>🟡 Not just a club — a culture<br>🔥 Yellow Wall, Signal Iduna Park<br>⚒️ Factory for future legends<br><br>
+          “They don’t buy stars, they make them.”<br>
+          “In Dortmund, football isn’t watched — it’s lived.”</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Real Madrid -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/real-madrid.jpg" class="card-img-top" alt="Real Madrid">
+        <div class="card-body">
+          <h5 class="card-title">Real Madrid</h5>
+          <p>🏆 14 UCL titles. The royalty of football.<br>🇪🇸 Built for the spotlight, made for the impossible<br><br>
+          “When you hear the anthem, you already know who’s winning.”<br>
+          “Others play football. Madrid plays *Champions League*.”</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Napoli -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/napoli.jpg" class="card-img-top" alt="Napoli">
+        <div class="card-body">
+          <h5 class="card-title">Napoli</h5>
+          <p>🇮🇹 From Maradona's magic to modern-day madness<br>🔥 2023 Serie A Champs after 33 years<br>⚡ Electrifying fans, murals, and goals<br><br>
+          “Naples doesn't just love football. It breathes it.”<br>
+          “From chaos comes beauty — that’s Napoli.”</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Tab 3: Fun Facts -->
+<div id="tab3" class="tab-content">
+  <h3>Football Fun Facts</h3>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/red-card.jpg" class="card-img-top" alt="Fastest Red Card">
+        <div class="card-body">
+          <h5 class="card-title">⚡ Fastest Red Card</h5>
+          <p>2 seconds. That’s how long it took for Lee Todd to get sent off — for swearing... at the whistle.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/world-cup.jpg" class="card-img-top" alt="World Cup Viewership">
+        <div class="card-body">
+          <h5 class="card-title">🌍 World Cup Reach</h5>
+          <p>Over 3.5 billion people watched the 2018 FIFA World Cup — that’s almost half the planet!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/stadium.jpg" class="card-img-top" alt="Biggest Stadium">
+        <div class="card-body">
+          <h5 class="card-title">🏟️ Largest Stadium</h5>
+          <p>Rungrado 1st of May Stadium in North Korea holds 114,000 seats. More like a football coliseum!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/vuvuzela.jpg" class="card-img-top" alt="Vuvuzela Noise">
+        <div class="card-body">
+          <h5 class="card-title">🎺 Vuvuzela Madness</h5>
+          <p>South Africa 2010 brought the vuvuzela — iconic or annoying, you’ll never forget that sound.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="assets/robot-ref.jpg" class="card-img-top" alt="AI Referees">
+        <div class="card-body">
+          <h5 class="card-title">🤖 Robo-Refs?</h5>
+          <p>AI and semi-automated offside systems are now helping referees get those tight calls right.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+</div>
+
+
+  </main>
+
+  <!-- JavaScript Files -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
